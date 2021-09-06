@@ -63,6 +63,16 @@ label {
 	border: none;
 	padding: 10px 0;
 	border-bottom: 3px solid var(--blue-2);
+	display: flex;
+}
+
+input {
+	width: 100%;
+	font-size: 18px;
+}
+
+input::placeholder {
+	font-size: 16px;
 }
 
 .hero-wrapper {
@@ -102,8 +112,8 @@ label {
 }
 
 .divider {
-	border: 1px solid var(--grey-1);
-	width: 50px;
+	background-color: var(--grey-2);
+	width: 80px;
 	height: 1px;
 }
 
@@ -115,7 +125,7 @@ label {
 }
 
 .alternative-text {
-	color: var(--grey-1);
+	color: var(--grey-2);
 	font-weight: 600;
 	font-size: 18px;
 }
@@ -125,7 +135,7 @@ label {
 }
 
 .alternative-login-icon img {
-	cursor: pointer;
+	cursor: pointer !important;
 }
 
 .footer-wrapper {
@@ -135,7 +145,7 @@ label {
 .footer {
 	position: absolute !important;
 	width: 100%;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .info-footer {
@@ -143,6 +153,7 @@ label {
 	color: var(--grey-2);
 	font-size: 18px;
 	padding: 20px 0;
+	margin-right: -100px;
 }
 
 .wave {
@@ -152,6 +163,6 @@ label {
 .wave img {
 	position: relative;
 	max-width: 100%;
-	margin-top: -100px;
+	margin-top: -120px;
 	overflow-y: hidden;
 }
